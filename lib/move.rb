@@ -1,4 +1,4 @@
-board = get_variable_from_file("./bin/move", "board")
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
